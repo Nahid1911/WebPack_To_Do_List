@@ -3,15 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+    <title>To Do List</title>
 </head>
 <body>
-    <header> </header>
+  <header> </header>
 
-    <main id="mainContainer" class="mainDiv">
-      <ul id="listContainer">
+  <main id="mainContainer" class="mainDiv">
+    <div class="commonClass">
+      <p>Today's To Do</p>
+      <button class="btnAll">
+        <i class="fas fa-sync-alt"></i>
+      </button>
+      
+    </div>
+    <div class="commonClass">
+      <input id="inputField" type="text" class="textInput" placeholder="Add to your list..."/>
+      <button  class="btnAll threeDots">
+        <i class="fa fa-ellipsis-h"></i>
+      </button>
+    </div>
+    <ul id="listContainer">
 
-      </ul>
-    </main>
+    </ul>
+
+    <div class="commonClass clearBtnDiv" >
+     <button class="btnCompleteAll"><p>Clear all completed</p></button>
+    </div>
+  </main>
+
+  
+  <script src="index.js"></script>
+  <footer> 
+  </footer>
 </body>
 </html>
