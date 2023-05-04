@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   height: 100%;
 }
@@ -60,7 +61,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .btnAll {
@@ -77,7 +77,6 @@ footer {
   border: none;
   background-color: transparent;
   background-color: #fff;
-  border: none;
   font-size: 20px;
   color: #9e9b9b;
   width: 100%;
