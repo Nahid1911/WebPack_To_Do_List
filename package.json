@@ -22,7 +22,7 @@
   },
   "name": "webpack_environment_setup",
   "version": "1.0.0",
-  "main": "webpack.config.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
