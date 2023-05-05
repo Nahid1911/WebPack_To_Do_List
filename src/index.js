@@ -6,7 +6,6 @@ const tasks = [{ description: 'wash the dishes', completed: false, index: 0 },
   { description: 'complete To Do list project', completed: false, index: 1 }];
 
 const target = document.getElementById('mainContainer');
-
 target.innerHTML = `
 <div class="commonClass">
 <p>Today's To Do</p>
