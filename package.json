@@ -9,6 +9,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-webpack-plugin": "^4.0.1",
     "express": "^4.18.2",
+    "hint": "^7.1.8",
     "html-webpack-plugin": "^5.5.1",
     "style-loader": "^3.3.2",
     "ts-loader": "^9.4.2",
@@ -22,7 +23,7 @@
   },
   "name": "webpack_environment_setup",
   "version": "1.0.0",
-  "main": "webpack.config.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
