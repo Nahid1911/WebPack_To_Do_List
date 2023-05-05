@@ -7,20 +7,6 @@ const tasks = [{ description: 'wash the dishes', completed: false, index: 0 },
 
 const target = document.getElementById('mainContainer');
 target.innerHTML = `
-<div class="commonClass">
-<p>Today's To Do</p>
-<button class="btnAll">
-  <i class="fas fa-sync-alt"></i>
-</button>
-
-</div>
-<div class="commonClass">
-<input id="inputField" type="text" class="textInput" placeholder="Add to your list..."/>
-<button  class="btnAll threeDots">
-  <i class="fa fa-ellipsis-h"></i>
-</button>
-</div>
-<ul id="listContainer">
 <li class ="commonClass">
 <label class ="checkBoxLabel">
 <input for ="job" id="inputField" type="checkbox" class ="checkBox">
@@ -39,7 +25,6 @@ target.innerHTML = `
  <i class="fa fa-ellipsis-h"></i>
 </button>
 </li>
-</ul>
 
 <div class="commonClass clearBtnDiv" >
 <button class="btnCompleteAll"><p>Clear all completed</p></button>
