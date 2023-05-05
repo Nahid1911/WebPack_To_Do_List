@@ -58,7 +58,7 @@ this is a project to create daily to do list with javascript, HTML, CSS.
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
+live demo is not available in this moment, it will be available soon.....
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
