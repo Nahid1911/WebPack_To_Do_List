@@ -38,6 +38,7 @@ target.innerHTML = `
 <button  class="btnAll threeDots">
  <i class="fa fa-ellipsis-h"></i>
 </button>
+</li>
 </ul>
 
 <div class="commonClass clearBtnDiv" >
