@@ -63,6 +63,10 @@ footer {
   justify-content: center;
 }
 
+.checkBox {
+  margin-right: 10px;
+}
+
 .btnAll {
   border: none;
   background-color: transparent;
