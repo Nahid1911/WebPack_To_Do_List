@@ -29,9 +29,9 @@ function addTrash(event) {
   const textElem = liItem.querySelector('p');
   textElem.setAttribute('contenteditable', true);
   const replaceIcon = liItem.querySelector('button');
-  replaceIcon.innerHTML = '<i id="delete" class="fas fa-trash-alt"></i>';
+  replaceIcon.innerHTML = '<i id="delete" class="fa fa-trash-alt"></i>';
   textElem.focus();
-  const trashBtn = document.getElementById('delete') || null;
+  const trashBtn = document.getElementById('delete') || 0;
   trashBtn.removeEventListener('click', addTrash);
   trashBtn.addEventListener('click', deleteList);
 }

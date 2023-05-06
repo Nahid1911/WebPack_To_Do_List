@@ -39,9 +39,9 @@ this is a project to create daily to do list with javascript, HTML, CSS.
 <details>
   <summary>Software</summary>
   <ul>
-    <li><a href=" ">HTML</a></li>
-    <li><a href=" ">CSS</a></li>
-    <li><a href=" ">JavaScript</a></li>
+    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://web.dev/learn/css/">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
   </ul>
 </details>
 

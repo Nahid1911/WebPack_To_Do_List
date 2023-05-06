@@ -6,13 +6,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: './src/index.js',
   devServer: {
-    static: './docs',
+    static: './dist',
   },
   mode: 'production',
   output: {
     filename: '[name].js',
     chunkFilename: '[name].[chunkhash].js',
-    path: path.resolve(__dirname, 'docs'),
+    path: path.resolve(__dirname, 'dist'),
     clean: true,
     publicPath: '/',
   },
