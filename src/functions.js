@@ -31,9 +31,9 @@ function addTrash(event) {
   const replaceIcon = liItem.querySelector('button');
   replaceIcon.innerHTML = '<i id="delete" class="fa fa-trash-alt"></i>';
   textElem.focus();
-  const trashBtn = document.getElementById('delete') || 0;
+  const trashBtn = document.getElementById('delete');
   trashBtn.removeEventListener('click', addTrash);
   trashBtn.addEventListener('click', deleteList);
 }
 
-export { saveToLocalStorage, addTrash, deleteList };
+export { saveToLocalStorage, addTrash };

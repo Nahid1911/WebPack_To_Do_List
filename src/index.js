@@ -1,7 +1,7 @@
 /* eslint-disable*/
 import _ from 'lodash';
 import './style.css';
-import { saveToLocalStorage, addTrash, deleteList} from './functions';
+import { saveToLocalStorage, addTrash} from './functions';
 
 let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 let index = tasks.length+1;
