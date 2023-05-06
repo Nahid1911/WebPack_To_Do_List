@@ -71,16 +71,16 @@ footer {
   border: none;
   background-color: transparent;
   background-color: #fff;
+  border: none;
   padding: 10px;
   font-size: 12px;
   color: #9e9b9b;
-  transform: rotate(90deg);
 }
 
 .btnCompleteAll {
   border: none;
   background-color: transparent;
-  background-color: #fff;
+  border: none;
   font-size: 20px;
   color: #9e9b9b;
   width: 100%;
@@ -98,5 +98,50 @@ footer {
 }
 
 ::placeholder {
-  font-style: italic;
+  font-style: italic ;
 }
+
+input[type="text"]:focus::placeholder {
+  color: transparent;
+}
+
+.checkBox {
+  margin-right: 10px;
+}
+
+.clearBtnDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+}
+
+.threeDots {
+  font-size: 10px;
+  background-color: transparent;
+}
+
+.syncBtn {
+  display: flex;
+  align-items: start;
+}
+
+.fa-ellipsis-h {
+  height: 100%;
+  width: 100%;
+}
+
+#delete {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pInsideLi {
+  width: 100%;
+  outline: none;
+}
+
+

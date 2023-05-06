@@ -1,20 +1,49 @@
-/* eslint-disable no-unused-vars */
+/* eslint-disable*/
 import _ from 'lodash';
 import './style.css';
+import { saveToLocalStorage, addTrash, deleteList } from './functions';
 
-const tasks = [{ description: 'wash the dishes', completed: false, index: 0 },
-  { description: 'complete To Do list project', completed: false, index: 1 }];
+let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+let index = tasks.length+1;
+
+let inputField = document.getElementById('inputField');
+
+inputField.addEventListener('keyup', function(event) {
+  if(event.key === 'Enter'){
+    const inputValue = inputField.value;
+    const newObj = {
+      description : inputValue,
+      completed : false,
+      index : index,
+    };
+    saveToLocalStorage (newObj);
+    window.location.reload();
+    inputField.value = '';
+  }
+ 
+} );
 
 const target = document.getElementById('listContainer');
-for (let i = 0; i < tasks.length; i += 1) {
+for( let i = 0; i < tasks.length; i += 1){
   target.innerHTML += `
-<li class ="commonClass">
-<label class ="checkBoxLabel">
-<input for ="job${tasks[i].index}" id="inputField" type="checkbox" class ="checkBox">
-<p id ="job${tasks[i].index}" class ="pInsideLi">${tasks[i].description}</p>
-</label>
-<button  class="btnAll threeDots">
- <i class="fa fa-ellipsis-h"></i>
-</button>
-`;
+      <li id=${i} class ="commonClass">
+      <input for ="job${i}" id="inputField" type="checkbox" class ="checkBox">
+      <p id ="job${i}" class="pInsideLi">${tasks[i].description}</p>
+      <button id="editOrRemoveBtn${i}"  class="btnAll threeDots">
+       <i class="fa fa-ellipsis-v"></i>
+      </button>
+      </li>
+    `;
+
 }
+
+const deleteBtn = document.querySelectorAll('[id^="editOrRemoveBtn"]');
+
+deleteBtn.forEach((button) => {
+  button.addEventListener('click', addTrash);
+});
+
+
+
+
+
