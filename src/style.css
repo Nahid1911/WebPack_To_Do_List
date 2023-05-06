@@ -71,7 +71,6 @@ footer {
   border: none;
   background-color: transparent;
   background-color: #fff;
-  border: none;
   padding: 10px;
   font-size: 12px;
   color: #9e9b9b;
@@ -80,7 +79,6 @@ footer {
 .btnCompleteAll {
   border: none;
   background-color: transparent;
-  border: none;
   font-size: 20px;
   color: #9e9b9b;
   width: 100%;
@@ -98,15 +96,11 @@ footer {
 }
 
 ::placeholder {
-  font-style: italic ;
+  font-style: italic;
 }
 
 input[type="text"]:focus::placeholder {
   color: transparent;
-}
-
-.checkBox {
-  margin-right: 10px;
 }
 
 .clearBtnDiv {
@@ -143,5 +137,3 @@ input[type="text"]:focus::placeholder {
   width: 100%;
   outline: none;
 }
-
-
