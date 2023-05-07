@@ -1,0 +1,260 @@
+[33mcommit 417d57567bf8e8f569fceebbef1e9f5bf8e69914[m[33m ([m[1;36mHEAD -> [m[1;32madd_remove_to_do_list[m[33m)[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Sat May 6 17:16:16 2023 +0600
+
+    make change in js files
+
+[33mcommit 1a2a56afca4fae9edfda05b40a64c59f21c70b8a[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Sat May 6 15:42:09 2023 +0600
+
+    required changes made as per reviewer
+
+[33mcommit f947fcbb03de7094a07685bb887d0d27377ee12d[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Sat May 6 08:38:54 2023 +0600
+
+    eslint error correction
+
+[33mcommit 5bb9c5ed02154e4abb4cb7ba73fabef156595642[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Sat May 6 08:36:19 2023 +0600
+
+    dist folder rename as docs
+
+[33mcommit 1d5b13777577543fee84d17efa0dee4793e64689[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Sat May 6 08:13:37 2023 +0600
+
+    update readme file
+
+[33mcommit 53aca00818f3cbfa97ea6630d935b96258d94353[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Sat May 6 07:49:06 2023 +0600
+
+    install gp-pages
+
+[33mcommit b13527a145c33d644515144fe73d5b7b78a413fd[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Sat May 6 07:12:00 2023 +0600
+
+    stylelint error correction
+
+[33mcommit 8322a3d0dc79f44336d865e9cb38729f060fc14c[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Sat May 6 07:04:39 2023 +0600
+
+    update JS functionality
+
+[33mcommit c7eeacf2ef90393b0ef73c8f5fbc089bb9cd85bb[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 10b3fd0 829e85d
+Author: Mohammad Nahid Raihan Sardar <118947090+Nahid1911@users.noreply.github.com>
+Date:   Fri May 5 16:39:35 2023 +0600
+
+    Merge pull request #1 from Nahid1911/toDo_list_structure
+    
+    To do list structure
+
+[33mcommit 829e85d62d459a3468c568f47849b2cc709b6094[m[33m ([m[1;31morigin/toDo_list_structure[m[33m, [m[1;32mtoDo_list_structure[m[33m)[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 16:13:00 2023 +0600
+
+    update readme
+
+[33mcommit 5a88fd523da188c64754cffc07c09cf122fbdd69[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 16:10:49 2023 +0600
+
+    update readme file
+
+[33mcommit 31dd8c69873f7926c18a694415acf3612e0ea585[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 16:09:57 2023 +0600
+
+    dynamic functionality added
+
+[33mcommit 179f027e5ead9edf4e29abe1aa763878e376c253[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 15:10:39 2023 +0600
+
+    update the target variable
+
+[33mcommit 1adf56f57578798e218d98daed02e6f56b144c51[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 15:03:43 2023 +0600
+
+    fix lighthouse errors
+
+[33mcommit 64b6e1bc2a011d30070a2c85acbc7016e9c4a632[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 14:38:25 2023 +0600
+
+    install hint in npm
+
+[33mcommit 9cc76707948fcd994be3c90275bd94234be19f97[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 14:34:15 2023 +0600
+
+    change the node version in yml
+
+[33mcommit 418c0c1aae31b2a3286744d617002b512ff68d28[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 14:30:53 2023 +0600
+
+    install hint in npm
+
+[33mcommit 1227bdde32d051924c39325daaa1ea753501af41[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 14:18:02 2023 +0600
+
+    reinstall lighthouse
+
+[33mcommit 213bb59226ced2a8f479bf38120ca8c9b01710f9[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 14:15:29 2023 +0600
+
+    fix lighthouse error
+
+[33mcommit 48dfe87baf83ba4bbc5d283fa5a0ecd584406eab[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 14:06:51 2023 +0600
+
+    change the node version of lighthouse
+
+[33mcommit 74f764912f5dc35ab9c9788a54523320c81af5a2[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 13:56:22 2023 +0600
+
+    change node version of yml file
+
+[33mcommit d9b6984c2539f1a4cc84d578930e98f9de5fcd1b[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 13:52:16 2023 +0600
+
+    change yml file for node-version
+
+[33mcommit d5607cac25691155f4db9373e08b644e6dc908ca[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 13:42:10 2023 +0600
+
+    change the version of node
+
+[33mcommit 0f2a09376d92b88eca62f9b9a378be7303ba54ce[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 13:31:26 2023 +0600
+
+    change yml file
+
+[33mcommit 94f2f81124337a3190d3d399f2fc59d8ffc0e40b[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 13:14:16 2023 +0600
+
+    fix some code in js file
+
+[33mcommit 1583c76c41b2ea8fb5e440ba8582bd1ffa8bb63f[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 13:12:24 2023 +0600
+
+    fix some coding error in js
+
+[33mcommit 75742d85f44a9b57e4ecf47aa921eb868d2593fa[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 12:58:53 2023 +0600
+
+    run build again after changing the port
+
+[33mcommit daa98690a0bf7c99922f2def11ea939694ddb06d[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 12:54:07 2023 +0600
+
+    change node-version of lghthouse
+
+[33mcommit 0be036449f564cc49f2dd5373f52112b8cc28525[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 12:41:51 2023 +0600
+
+    run build again after changing the port
+
+[33mcommit 5fd23033ce00288bf8d9a29da865cc1576c5be65[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 12:21:13 2023 +0600
+
+    change server port
+
+[33mcommit 951c9b17508e6bd324b88dcef239bd44e419611f[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 12:14:21 2023 +0600
+
+    install lighthouse
+
+[33mcommit 43d5870d8af69fae09307a8fbfb27f1ee36afa2f[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 12:05:06 2023 +0600
+
+    add hintrc file
+
+[33mcommit 0e7492f5e2428131fa80dd57882fa3b2784af799[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 11:49:37 2023 +0600
+
+    fix eslint error
+
+[33mcommit f81723271002080f6b0eed3f178f049fb1713a7e[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 11:45:04 2023 +0600
+
+    fix linters error
+
+[33mcommit 9596a74bdfb514fa1412fa68921de98b760345b9[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 11:42:34 2023 +0600
+
+    additional functionality removed as revewer recommed
+
+[33mcommit 02a0188c880510a14bde0fdd7b614267a77dfa12[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 05:26:33 2023 +0600
+
+    fix listers errors
+
+[33mcommit 7a9f40216b879144b6e126391e878dbc33040d3b[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 05:19:00 2023 +0600
+
+    fix linters error
+
+[33mcommit 53f0b8d398a105316ef3a610f92dd0fbe3790628[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 05:06:27 2023 +0600
+
+    add yml and stylelintrc files
+
+[33mcommit 85929a2e7f6e968e4af1b3bd932fd16ce6900b3b[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 04:26:24 2023 +0600
+
+    add readme file
+
+[33mcommit 938d0502a6d070270e7817a688896d4c408e9bc7[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 03:58:42 2023 +0600
+
+    add JavaScript funtionality
+
+[33mcommit 60384fa281692d47586c7dcad3d5187d90c7a547[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 03:50:08 2023 +0600
+
+    update style.css
+
+[33mcommit 1ae820e707687cb4ea1956e0f3d6f2bd268ce0ed[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 03:46:48 2023 +0600
+
+    add html code
+
+[33mcommit 10b3fd0ab4077595afe0167898b4813024f87d61[m
+Author: Nahid1911 <nahid.raihan@gmail.com>
+Date:   Fri May 5 03:40:58 2023 +0600
+
+    webpack environment setup

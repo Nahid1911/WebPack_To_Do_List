@@ -13,7 +13,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -40,9 +39,9 @@ this is a project to create daily to do list with javascript, HTML, CSS.
 <details>
   <summary>Software</summary>
   <ul>
-    <li><a href=" ">HTML</a></li>
-    <li><a href=" ">CSS</a></li>
-    <li><a href=" ">JavaScript</a></li>
+    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://web.dev/learn/css/">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
   </ul>
 </details>
 
@@ -57,8 +56,6 @@ this is a project to create daily to do list with javascript, HTML, CSS.
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-live demo is not available in this moment, it will be available soon.....
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
