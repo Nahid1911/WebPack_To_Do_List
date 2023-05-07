@@ -1,9 +1,9 @@
 /* eslint-disable*/
 import _ from 'lodash';
 import './style.css';
-import { saveToLocalStorage, addTrash} from './functions';
+import addTrash from './functions.js';
 
-let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+export let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 let index = tasks.length+1;
 
 let inputField = document.getElementById('inputField');
@@ -42,23 +42,28 @@ deleteBtn.forEach((button) => {
   button.addEventListener('click', addTrash)
 });
 
-let txtEditField = document.querySelectorAll('ul>li p');
 
-txtEditField.forEach((p)=>{
-  p.addEventListener('blur', function(event) {
+function saveToLocalStorage(data) {
+  tasks.push(data);
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+}
+
+const txtEditField = document.querySelectorAll('ul>li p');
+
+txtEditField.forEach((p) => {
+  p.addEventListener('blur', function() {
     const updateContent = this.textContent.trim();
-    let closestLi = this.closest('li');
-    let taskId = closestLi.getAttribute('id');
-    let taskIdnumber = parseInt(taskId.replace(/^[A-Z]/,""),10);
-    const tasks = JSON.parse(localStorage.getItem('tasks'));
-    const taskIndex = tasks.findIndex(task => task.index === taskIdnumber+1);
+    const closestLi = this.closest('li');
+    const taskId = closestLi.getAttribute('id');
+    const taskIdnumber = parseInt(taskId.replace(/^[A-Z]/, ''), 10);
+    let tasks = JSON.parse(localStorage.getItem('tasks'));
+    const taskIndex = tasks.findIndex(task => task.index === taskIdnumber + 1);
     tasks[taskIndex].description = updateContent;
-    localStorage.setItem('tasks', JSON.stringify(tasks))
+    localStorage.setItem('tasks', JSON.stringify(tasks));
 
-  let trashButton = document.getElementsByClassName('fa-trash-alt')
-  let tagName = trashButton[0].classList.replace('fa-trash-alt','fa-ellipsis-v');
+  const trashButton = document.getElementsByClassName('fa-trash-alt')
+  trashButton[0].classList.replace('fa-trash-alt','fa-ellipsis-v');
   window.location.reload();
 
   })
 })
-

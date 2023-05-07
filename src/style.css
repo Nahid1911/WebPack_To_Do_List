@@ -76,6 +76,10 @@ footer {
   color: #9e9b9b;
 }
 
+.btnAll:hover {
+  color: black;
+}
+
 .btnCompleteAll {
   border: none;
   background-color: transparent;
@@ -131,6 +135,10 @@ input[type="text"]:focus::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#delete:hover {
+ color: red;
 }
 
 .pInsideLi {
