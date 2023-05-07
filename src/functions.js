@@ -1,4 +1,3 @@
-
 function reassignId() {
   const tasks = JSON.parse(localStorage.getItem('tasks'));
   for (let i = 0; i < tasks.length; i += 1) {
