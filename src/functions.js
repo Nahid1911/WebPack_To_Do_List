@@ -1,3 +1,12 @@
+
+function reassignId() {
+  const tasks = JSON.parse(localStorage.getItem('tasks'));
+  for (let i = 0; i < tasks.length; i += 1) {
+    tasks[i].index = i + 1;
+  }
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+}
+
 function deleteList(event) {
   const button = event.target;
   const liItem = button.closest('li');
@@ -9,14 +18,6 @@ function deleteList(event) {
   localStorage.setItem('tasks', JSON.stringify(tasks));
   reassignId(tasks);
   window.location.reload();
-}
-
-function reassignId() {
-  const tasks = JSON.parse(localStorage.getItem('tasks'));
-  for (let i = 0; i < tasks.length; i += 1) {
-    tasks[i].index = i + 1;
-  }
-  localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
 export default function addTrash(event) {
@@ -33,4 +34,3 @@ export default function addTrash(event) {
     trashBtn.addEventListener('click', deleteList);
   }
 }
-
