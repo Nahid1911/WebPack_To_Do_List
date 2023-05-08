@@ -1,14 +1,9 @@
-/* eslint-disable */
 const path = require('path');
-const ESLintPlugin = require('eslint-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
-  devServer: {
-    static: './dist',
-  },
-  mode: 'production',
+  mode: 'development',
   output: {
     filename: '[name].js',
     chunkFilename: '[name].[chunkhash].js',
@@ -17,30 +12,27 @@ module.exports = {
     publicPath: '/',
   },
 
-  module: {
-    rules: [{
-      test: /\.css$/i,
-      use: ['style-loader', 'css-loader'],
-    },
-    {
-      test: /\.(png|svg|jpg|jpeg|gif)$/i,
-      type: 'asset/resource',
-    }],
-
+  devServer: {
+    static: './dist',
   },
+
   plugins: [
-    new ESLintPlugin({
-      files: './src/index.js',
-      extensions: ['js'],
-
-    }),
     new HtmlWebpackPlugin({
-      template: './src/index.html',
+        template: './src/index.html',
     }),
-
   ],
+
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
+
   optimization: {
     runtimeChunk: 'single',
   },
-
 };
+
