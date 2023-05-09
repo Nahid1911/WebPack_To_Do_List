@@ -1,3 +1,4 @@
+/* eslint-disable*/
 import _ from 'lodash';
 import './style.css';
 import '@fortawesome/fontawesome-free/js/solid'
@@ -85,7 +86,7 @@ function deleteList() {
     tasks[i].index = i + 1;
   }
   localStorage.setItem('tasks', JSON.stringify(tasks));
-  // window.location.reload();
+  window.location.reload();
 }
 const txtEditField = document.querySelectorAll('ul>li p');
 
