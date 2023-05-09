@@ -26,7 +26,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 8% 5%;
+  margin: 10% 5%;
   box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.299);
 }
 
@@ -74,13 +74,15 @@ footer {
   padding: 10px;
   font-size: 12px;
   color: #9e9b9b;
-  transform: rotate(90deg);
+}
+
+.btnAll:hover {
+  color: black;
 }
 
 .btnCompleteAll {
   border: none;
   background-color: transparent;
-  background-color: #fff;
   font-size: 20px;
   color: #9e9b9b;
   width: 100%;
@@ -99,4 +101,51 @@ footer {
 
 ::placeholder {
   font-style: italic;
+}
+
+input[type="text"]:focus::placeholder {
+  color: transparent;
+}
+
+.clearBtnDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+}
+
+.threeDots {
+  font-size: 10px;
+  background-color: transparent;
+}
+
+.syncBtn {
+  display: flex;
+  align-items: start;
+}
+
+.fa-ellipsis-h {
+  height: 100%;
+  width: 100%;
+}
+
+#delete {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#delete:hover {
+  color: red;
+}
+
+.pInsideLi {
+  width: 100%;
+  outline: none;
+}
+
+.icon {
+  background-color: red;
 }
