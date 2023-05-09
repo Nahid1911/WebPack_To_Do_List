@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
 
-  <h3><b>My Portfolio README guide</b></h3>
+  <h3><b>To Do List</b></h3>
 
 </div>
 
@@ -31,7 +31,7 @@
 
 # 📖 Nahid-s_Portfolio <a name="about-project"></a>
 
-Nahid-s_Portfolio is a HTML and CSS porject to develop personal portfolio wiith some mandatory features.
+this is a project to create daily to do list with javascript, HTML, CSS.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,6 +42,7 @@ Nahid-s_Portfolio is a HTML and CSS porject to develop personal portfolio wiith 
   <ul>
     <li><a href=" ">HTML</a></li>
     <li><a href=" ">CSS</a></li>
+    <li><a href=" ">JavaScript</a></li>
   </ul>
 </details>
 
@@ -49,20 +50,15 @@ Nahid-s_Portfolio is a HTML and CSS porject to develop personal portfolio wiith 
 
 ### Key Features <a name="key-features"></a>
 
-- Work Showcase
-- Personal Information
-- Contact information
+- Daily to do list
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-To see the live demo of the page please click <a href="https://nahid1911.github.io/Nahid-s_Portfolio/">here</a>:
-
-
-Have a knowledge about the project please see the <a href="https://www.loom.com/share/cad0b76c62684be99ed5ad72c25bd3be">project walkthrough</a>
+live demo is not available in this moment, it will be available soon.....
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +72,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-Install text editor like Visual Studio
+Install text editor like Visual Studio,
+Node.js need to be available in your local machine
 
 ### Setup
 
@@ -84,7 +81,7 @@ Clone this repository to your desired folder using the command:
 
 ```sh
   cd folder_name
-  git clone git@github.com:Nahid1911/Nahid-s_Portfolio.git
+  git clone git@github.com:Nahid1911/WebPack_To_Do_List.git
 ```
 ### Usage
 
