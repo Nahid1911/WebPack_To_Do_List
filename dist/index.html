@@ -6,6 +6,35 @@
     <title>Wbpack Exercise</title>
 <script defer src="/runtime.js"></script><script defer src="/main.js"></script></head>
 <body>
-    <h1>Hello webpack!</h1>
+    <header> </header>
+
+    <main id="mainContainer" class="mainDiv">
+      <div class="commonClass">
+        <p>Today's To Do</p>
+        <button class="btnAll">
+          <i class="fa fa-sync-alt"></i>
+        </button>
+  
+      </div>
+      <div class="commonClass">
+        <input id="inputField" type="text" class="textInput"
+          placeholder="Add to your list..." />
+        <button class="btnAll threeDots">
+          <i class="fa fa-arrow-left"></i>
+        </button>
+      </div>
+      <ul id="listContainer">
+      </ul>
+  
+      <div class="commonClass clearBtnDiv">
+        <button class="btnCompleteAll">
+          <p>Clear all completed</p>
+        </button>
+      </div>
+  
+    </main>
+  
+    <footer>
+    </footer>
 </body>
 </html>
