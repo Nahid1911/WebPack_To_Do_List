@@ -26,7 +26,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10% 5%;
+  margin: 8% 5%;
   box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.299);
 }
 
@@ -76,16 +76,16 @@ footer {
   color: #9e9b9b;
 }
 
-.btnAll:hover {
-  color: black;
-}
-
 .btnCompleteAll {
   border: none;
   background-color: transparent;
   font-size: 20px;
   color: #9e9b9b;
   width: 100%;
+}
+
+.btnCompleteAll:hover {
+  color: #8c4949;
 }
 
 .textInput {
@@ -137,15 +137,16 @@ input[type="text"]:focus::placeholder {
   justify-content: center;
 }
 
-#delete:hover {
-  color: red;
-}
-
 .pInsideLi {
   width: 100%;
   outline: none;
 }
 
-.icon {
-  background-color: red;
+.ellipsis-v {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid green;
+  height: 30px;
+  width: 30px;
 }
