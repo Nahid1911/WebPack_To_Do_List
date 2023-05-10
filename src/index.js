@@ -1,4 +1,5 @@
 /* eslint-disable*/
+import { returnNewArrar, clearAllSelected} from './function.js';
 import _ from 'lodash';
 import './style.css';
 import '@fortawesome/fontawesome-free/js/solid'
@@ -29,7 +30,7 @@ const target = document.getElementById('listContainer');
 for( let i = 0; i < tasks.length; i += 1){
   target.innerHTML += `
       <li id="L${i}" class ="commonClass">
-      <input for ="P${i}" id="inputField" type="checkbox" class ="checkBox">
+      <input id ="input${i}" type="checkbox" class ="checkBox">
       <p id ="P${i}" class="pInsideLi">${tasks[i].description}</p>
       <button id="editOrRemoveBtn${i}"  class="btnAll threeDots list-item">
        <i class="fa fa-ellipsis-v"></i>
@@ -68,8 +69,7 @@ function addTrash(event) {
   textElem.setAttribute('contenteditable', true);
   textElem.focus();
   const trashBtn = document.getElementsByClassName('newButton');
-   
-    trashBtn[0].addEventListener('click', deleteList);
+  trashBtn[0].addEventListener('click', deleteList);
 
 }
 
@@ -77,8 +77,6 @@ function deleteList() {
   const button = document.querySelectorAll('.newButton');
   const element = button[0].parentNode;
   const liItem = element.parentNode;
-  console.log(liItem)
-  // const parent = element.parentNode;
   liItem.removeChild(element);
   const listId = element.getAttribute('id');
   tasks.splice(listId, 1);
@@ -109,3 +107,9 @@ txtEditField.forEach((p) => {
     window.location.reload();
   })
 })
+
+const checkBoxes = document.querySelectorAll('.checkBox');
+ checkBoxes.forEach(checkBoox=> checkBoox.addEventListener('change', returnNewArrar));
+
+ const completeAll = document.querySelector('.btnCompleteAll')
+    completeAll.addEventListener('click', clearAllSelected)
