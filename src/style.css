@@ -69,7 +69,6 @@ footer {
 
 .btnAll {
   border: none;
-  background-color: transparent;
   background-color: #fff;
   padding: 10px;
   font-size: 12px;
@@ -149,4 +148,8 @@ input[type="text"]:focus::placeholder {
   border: 1px solid green;
   height: 30px;
   width: 30px;
+}
+
+.line-trhough {
+  text-decoration: line-through;
 }

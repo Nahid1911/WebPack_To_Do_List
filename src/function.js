@@ -16,20 +16,25 @@ let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
   }
 
   function returnNewArrar (event) {
-    console.log(event);
       const target1 = event.target.id;
-      console.log(target1);
       const targetIdNumber =parseInt(target1.match(/\d+/)[0], 10);
-      console.log(JSON.stringify(targetIdNumber));
       const taskIndex = tasks.findIndex(task => task.index === targetIdNumber + 1);
-      console.log(taskIndex);
-      tasks[taskIndex].completed = true;
-      const nextElemSinling1 = event.target.nextElementSibling;
-      console.log(nextElemSinling1);
-      nextElemSinling1.style.textDecoration = 'line-through' ;
+      status(tasks[taskIndex])
+      classToggle(event)
       localStorage.setItem('tasks', JSON.stringify(tasks));
   }
 
+  function status(task) {
+    if (!task.completed) {
+      task.completed = true;
+     } else if (task.completed) {
+      task.completed = false;
+    }
+  }
+  function classToggle(event) {
+    event.target.nextElementSibling.classList.toggle('line-trhough')
+    // this.classList.toggle("active");
+  }
 
 
 export {returnNewArrar, clearAllSelected}

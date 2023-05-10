@@ -77,7 +77,6 @@ function deleteList() {
   const button = document.querySelectorAll('.newButton');
   const element = button[0].parentNode;
   const liItem = element.parentNode;
-  console.log(liItem)
   liItem.removeChild(element);
   const listId = element.getAttribute('id');
   tasks.splice(listId, 1);
@@ -110,7 +109,6 @@ txtEditField.forEach((p) => {
 })
 
 const checkBoxes = document.querySelectorAll('.checkBox');
-console.log(checkBoxes)
  checkBoxes.forEach(checkBoox=> checkBoox.addEventListener('change', returnNewArrar));
 
  const completeAll = document.querySelector('.btnCompleteAll')
